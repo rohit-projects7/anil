@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    border: border-box;
+
+}
+
+body {
+    background-color: rgb(235, 241, 245);
+}
+
+nav {
+    background-color: rgb(255, 182, 249);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-icon {
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: white;
+}
+
+.profile-icon a {
+   
+    color: white;
+}
+
+.heading {
+    color: white;
+}
+
+.heading h3 {
+    margin-left: 10px;
+}
+
+.menu-bar {
+    font-size: 2.5rem;
+    color: rgb(150, 80, 156);
+    margin-right: 10px;
+}
+
+.menu-bar a {
+    color: rgb(150, 80, 156);
+}
+
+.banner {
+    background-image: url(resourses/pexels-atomlaborblog-1024634.jpg);
+    height: 600px;
+    background-size: cover;
+    background-color: black;
+    color: white;
+    text-align: center;
+   text-transform: capitalize;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   
+}
+
+.heading2 {
+    position: relative;
+    animation: appear 2s ease-in-out 0s forwards;
+ 
+}
+
+@keyframes appear {
+
+    from {
+
+        opacity: 0.0;
+        top: -500px
+
+
+    }
+
+    to {
+
+        opacity: 1.0;
+        top: 0.0;
+    }
+}
+
+.product-list {
+    border-top: 4px solid plum;
+    border-bottom: 4px solid plum;
+    margin-top: 10px;
+}
+
+.product-list h3 {
+    margin-left: 8px;
+}
+
+.home-btn {
+    color: rgb(212, 142, 213);
+    font-size: 1rem;
+}
+
+.home-btn a {
+    color: rgb(212, 142, 213);
+}
+
+.myorders-btn {
+    color: rgb(212, 142, 213);
+    font-size: 1rem;
+}
+
+.myorders-btn a {
+    color: rgb(212, 142, 213);
+}
+
+.wallet-btn {
+    color: rgb(212, 142, 213);
+    font-size: 1rem;
+}
+
+.footer {
+    display: flex;
+    background-color: white;
+    height: 60PX;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+   
+}
+
+/* order history page */
+
+.order-history {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.myorders-footer {
+    display: flex;
+    background-color: white;
+    height: 60PX;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 12px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/* profile page */
+
+.profile-container {
+    height: 100px;
+    background-color:  rgb(255, 182, 249);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 12px;
+}
+
+.list div a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.next-icon {
+    font-size: 1rem;
+    
+}
